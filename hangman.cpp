@@ -8,7 +8,7 @@ using namespace std;
 
 class Hangman {
     public:
-        string words[28] = {"perfect", "welcome", "healthy", "crooked","unusual", "leading", "graphic", "purging", "similar", "Iranian", "damaged", "Pacific", "gutless", "thrifty", "corrupt", "mediate", "orbital", "hostile", "artless", "pungent", "defiant", "logical", "sitting", "selfish", "weekday", "bipolar", "changed", "colored"};
+        string words[28] = {"perfect", "welcome", "healthy", "crooked","unusual", "leading", "graphic", "purging", "similar", "iranian", "damaged", "Pacific", "gutless", "thrifty", "corrupt", "mediate", "orbital", "hostile", "artless", "pungent", "defiant", "logical", "sitting", "selfish", "weekday", "bipolar", "changed", "colored"};
         string word;
         int numofguesses = 0;
         int maxnumofguesses = 5;
